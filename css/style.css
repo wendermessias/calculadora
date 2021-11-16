@@ -1,0 +1,80 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.fundo {
+  background: linear-gradient(45deg, black, crimson);
+  height: 42rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.calculadora {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  padding: 20px;
+}
+/*Botões*/
+.btn {
+  width: 48px;
+  height: 48px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(31, 31, 31);
+  border: none;
+  color: #fff;
+}
+.btn:hover {
+  background-color: black;
+}
+/*Botão = */
+.button_1 {
+  height: 80px;
+  width: 48px;
+  font-size: 25px;
+  cursor: pointer;
+  background-color: rgb(31, 31, 31);
+  border: none;
+  color: #fff;
+}
+.button_1:hover {
+  background-color: black;
+}
+/*Botão 0 */
+.button_2 {
+  width: 106px;
+  font-size: 25px;
+  cursor: pointer;
+  background-color: rgb(31, 31, 31);
+  border: none;
+  color: #fff;
+}
+.button_2:hover {
+  background-color: black;
+}
+/*Botão . */
+.button_3 {
+  width: 48px;
+  font-size: 25px;
+  cursor: pointer;
+  background-color: rgb(31, 31, 31);
+  border: none;
+  color: #fff;
+}
+.button_3:hover {
+  background-color: black;
+}
+#resultado {
+  background-color: white;
+  width: 199px;
+  height: 30px;
+  margin: 5px;
+  font-size: 25px;
+  color: black;
+  text-align: right;
+  padding: 2px;
+}
