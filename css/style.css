@@ -3,7 +3,8 @@
   padding: 0px;
 }
 .fundo {
-  background: linear-gradient(45deg, black, crimson);
+  background: royalblue;
+  /*background: linear-gradient(45deg, black, crimson);*/
   height: 100vh;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
