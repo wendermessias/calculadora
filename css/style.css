@@ -17,7 +17,7 @@
   font-weight: bold;
   padding-top: 200px;
   position: relative;
-  bottom: 178px;
+  bottom: 190px;
 }
 
 #flip {
@@ -144,4 +144,18 @@
   color: black;
   text-align: right;
   padding: 2px;
+}
+
+@media (max-width: 1024px)  {
+  .calculadora {
+    top: 56%;
+    left: 50%;
+  }
+}
+
+@media (max-width: 400px)  {
+  .calculadora {
+    top: 56%;
+    left: 50%;
+  }
 }
